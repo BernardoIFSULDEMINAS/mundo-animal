@@ -100,4 +100,23 @@ div#interface {
 }
 
 /* end banner */
+/* start noticias */
+.noticias {
+    float: left;
+    width: 900px;
+    border-right: 2px solid rgb(173, 194, 54);
+    padding: 0 15px 0 0;
+}
+
+.noticias p{
+    text-align: justify;
+    text-indent: 35px;
+}
+
+.figura {
+    float: left;
+    margin: 0 15px 0 0;
+    width: 420px;
+}
+/* end noticias */
 /* end main */
