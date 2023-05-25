@@ -117,6 +117,22 @@ div#interface {
     float: left;
     margin: 0 15px 0 0;
     width: 420px;
+    position: relative;
 }
+
+.legenda {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.figura:hover .legenda {
+    display: block;
+}
+
 /* end noticias */
 /* end main */
