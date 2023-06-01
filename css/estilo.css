@@ -121,17 +121,18 @@ div#interface {
 }
 
 .legenda {
-    display: none;
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
+    transition: opacity 0.5s;
 }
 
 .figura:hover .legenda {
-    display: block;
+    opacity: 1;
 }
 
 /* end noticias */
