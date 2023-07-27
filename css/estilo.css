@@ -143,6 +143,38 @@ div#interface {
 .figura:hover .legenda {
     opacity: 1;
 }
-
 /* end noticias */
+/* start animais */
+.animais {
+    clear: both;
+}
+
+.tit-animais {
+    font-family: 'Nunito', arial;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.fig-animais {
+    float: left;
+    width: 285px;
+    min-height: 420px;
+    background-color: rgb(173, 194, 54);
+    margin: 0 20px 0;
+}
+
+.fig-animais:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+.leg-animais {
+    text-align: center;
+    padding: 10px;
+}
+
+.fig-animais img {
+    width: 100%;
+}
+/* end animais */
 /* end main */
