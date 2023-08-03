@@ -143,6 +143,18 @@ div#interface {
 .figura:hover .legenda {
     opacity: 1;
 }
+
+.lateral a {
+    text-decoration: none;
+}
+
+.lateral a:visited {
+    color: inherit;
+}
+
+.lateral a:active {
+  color: inherit;
+}
 /* end noticias */
 /* start animais */
 .animais {
@@ -157,11 +169,13 @@ div#interface {
 }
 
 .fig-animais {
+    /*display: inline-block;
+    vertical-align: top;*/
     float: left;
     width: 285px;
     min-height: 420px;
     background-color: rgb(173, 194, 54);
-    margin: 0 20px 0;
+    margin: 0 20px 20px;
 }
 
 .fig-animais:hover {
@@ -178,3 +192,28 @@ div#interface {
 }
 /* end animais */
 /* end main */
+
+/* start rodape */
+.rodape {
+    background-image: url(../imagens/background.png);
+    clear: both;
+    height: 110px;
+    padding: 25px 100px;
+}
+
+.slogan {
+    color: white;
+    float: left;
+    padding-top: 10px;
+}
+
+.copy {
+    text-align: center;
+    float: right;
+}
+
+.copy h2 {
+    font-family: 'Nunito', Arial;
+    font-style: italic;
+}
+/* end rodape */
