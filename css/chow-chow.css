@@ -25,3 +25,39 @@
 .titulos h2 {
     font-weight: normal;
 }
+
+table, td, th{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+th {
+    font-size: 25px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+table img {
+    width: 100%;
+}
+
+table {
+    margin: 0 auto 25px;
+    width: 900px;
+}
+
+table a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2d8f0d;
+}
+
+.ce {
+    background-color: #555;
+    color: white;
+    text-align: right;
+}
+
+
