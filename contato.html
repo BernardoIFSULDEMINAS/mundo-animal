@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="shortcut icon" href="imagens/logomarca.png" />
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="stylesheet" href="css/contato.css" />
+</head>
+
+<body>
+  <div id="interface">
+    <!--start header-->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="chow-chow.html">animais</a></li>
+          <li><a href="animais-pre-historicos.html">conservação</a></li>
+          <li><a href="contato.html">contato</a></li>
+          <li><a href="login.html">login</a></li>
+        </ul>
+      </nav>
+        <div class="logo">
+          <img src="imagens/logomarca.png" alt="Logomarca da empresa representando um globo com imagens de animais ao fundo" />
+        </div>
+        <div class="titulo">
+          <h1>Mundo <span>Animal</span></h1>
+          <h2>Inspirar pessoas a cuidar melhor dos animais</h2>
+        </div>
+    </header>
+    <!--end header-->
+
+    <!--conteúdo principal-->
+    <main>
+      <section class="contato">
+        <h2 class="titulo2">Contato</h2>
+        <form action="" method="get">
+          <label for="">Nome:</label>
+          <input type="text" name="tNome" value="Digite seu nome completo" size="50" maxlength="10">
+
+          <label for="">E-mail:</label>
+          <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com">
+
+          <label for="">Assunto:</label>
+          <input type="text" name="tAssunto" placeholder="Digite o título da sua mensagem">
+
+          <label for="">Mensagem:</label>
+          <textarea name="tMsg" placeholder="Digite aqui sua mensagem" cols="30" rows="10"></textarea>
+
+          <input type="checkbox" name="tCheck" id="check" checked><label for="check">Deseja receber nossas notificações?</label>
+          <input type="reset" value="Limpar">
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <footer class="rodape">
+      <div class="slogan">
+        <h2>Inspirar pessoas a cuidar melhor dos animais.</h2>
+      </div>
+      <div class="copy">
+        <h4>&copy; 2023</h4>
+        <h2>Mundo <span>Animal</span></h2>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
+
