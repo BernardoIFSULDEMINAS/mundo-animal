@@ -8,8 +8,11 @@ form {
   width: 600px;
   margin: 50px auto;
 }
+.titulo2 img {
+  display: inline;
+}
 
-input[type="text"], input[type="email"], textarea{
+input[type="text"], input[type="email"], textarea {
   width: 95%;
   font-size: 18px;
   padding: 10px;
@@ -23,4 +26,34 @@ textarea {
 .botoes {
   text-align: center;
   margin-top: 15px;
+}
+
+.limpar, .enviar {
+  font-size: 18px;
+  padding: 5px 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  transition: linear background-color 0.2s;
+}
+.limpar {
+  background-color: #900;
+}
+
+.limpar:hover {
+  background-color: #B00;
+}
+
+.enviar {
+  background-color: #090;
+}
+
+.enviar:hover {
+  background-color: #0B0;
+}
+
+fieldset {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 30px;
 }

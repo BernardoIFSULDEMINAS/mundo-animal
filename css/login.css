@@ -1,0 +1,66 @@
+.icone {
+  float: right;
+}
+
+.subtitulo {
+  margin-bottom: 30px;
+  margin-top: 16px;
+}
+
+form label{
+  display: block;
+  margin-top: 16px;
+}
+
+.login {
+  margin-left: 30px;
+}
+
+.enviar {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #090;
+  border: none;
+  font-size: 16px;
+}
+
+input[type="password"], input[type="email"] {
+  border-radius: 5px;
+  border: black 2px solid;
+  padding: 5px 2px;
+  width: 400px;
+  font-size: 16px;
+}
+
+small {
+  display: block;
+  margin-top: 1px;
+  color: grey;
+}
+
+.linkajuda {
+  margin: 20px 0;
+  color: #acc236;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.linkajuda a {
+  color: #acc236;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.entrar {
+  margin-top: 15px;
+}
+
+.entrar label {
+  display: inline;
+}
+
+h2 {
+  color: #44A;
+}

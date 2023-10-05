@@ -8,7 +8,7 @@
 
   <link rel="shortcut icon" href="imagens/logomarca.png" />
   <link rel="stylesheet" href="css/estilo.css" />
-  <link rel="stylesheet" href="css/contato.css" />
+  <link rel="stylesheet" href="css/login.css" />
 </head>
 
 <body>
@@ -37,30 +37,24 @@
 
     <!--conteúdo principal-->
     <main>
-      <section class="contato">
-        <h2 class="titulo2">Contato</h2>
-        <form action="" method="get">
-          <fieldset>
-            <label for="">Nome:</label>
-            <input type="text" name="tNome" value="Digite seu nome completo" size="50" maxlength="10">
+      <section class="login">
+        <h2 class="titulo2"><img src="imagens/new_user.png" alt=""> login</h2>
+        <img class="icone" src="imagens/login-bg.png" alt="">
+        <form method="post">
+          <label for="usuario">Usuário:</label>
+          <input type="email" id="usuario" name="usuario" placeholder="por ex.: joaodasilva@provedor.com.br">
+          <small>Nunca iremos compartilhar seu email com ninguém!</small>
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" placeholder="digite sua senha">
 
-            <label for="">E-mail:</label>
-            <input type="email" name="tEmail" placeholder="por ex.: joaodasilva@email.com">
-
-            <label for="">Assunto:</label>
-            <input type="text" name="tAssunto" placeholder="Digite o título da sua mensagem">
-
-            <label for="">Mensagem:</label>
-            <textarea name="tMsg" placeholder="Digite aqui sua mensagem" cols="30" rows="10"></textarea>
-
-            <input type="checkbox" name="tCheck" id="check" checked><label for="check">Deseja receber nossas
-              notificações?</label>
-            <div class="botoes">
-              <input type="reset" value="Limpar" class="limpar">
-              <input type="submit" value="Enviar" class="enviar">
-            </div>
-          </fieldset>
+          <div class="entrar">
+            <button class="enviar" type="submit">Entrar</button>
+            <input type="checkbox" id="manterConectado" name="manterConectado" checked>
+            <label for="manterConectado">Mantenha-me conectado</label>
+          </div>
         </form>
+        <div class="linkajuda"><a href="#">Esqueceu sua senha? Clique aqui</a></div>
+        <div class="linkajuda"><a href="#">Não possui login? Clique aqui e faça seu cadastro!</a></div>
       </section>
     </main>
     <footer class="rodape">
