@@ -39,22 +39,40 @@
     <main>
       <section class="login">
         <h2 class="titulo2"><img src="imagens/new_user.png" alt=""> login</h2>
-        <img class="icone" src="imagens/login-bg.png" alt="">
         <form method="post">
-          <label for="usuario">Usuário:</label>
-          <input type="email" id="usuario" name="usuario" placeholder="por ex.: joaodasilva@provedor.com.br">
-          <small>Nunca iremos compartilhar seu email com ninguém!</small>
-          <label for="senha">Senha:</label>
-          <input type="password" id="senha" name="senha" placeholder="digite sua senha">
-
-          <div class="entrar">
+          <div>
+            <label for="usuario">Usuário:</label>
+            <input type="email" id="usuario" name="usuario" placeholder="por ex.: joaodasilva@provedor.com.br">
+            <small>Nunca iremos compartilhar seu email com ninguém!</small>
+          </div>
+          <div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="digite sua senha">
+          </div>
+          <div class="entrar-div">
             <button class="enviar" type="submit">Entrar</button>
             <input type="checkbox" id="manterConectado" name="manterConectado" checked>
             <label for="manterConectado">Mantenha-me conectado</label>
           </div>
         </form>
-        <div class="linkajuda"><a href="#">Esqueceu sua senha? Clique aqui</a></div>
-        <div class="linkajuda"><a href="#">Não possui login? Clique aqui e faça seu cadastro!</a></div>
+        <div class="linkajuda"><a href="#esqueceu-senha">Esqueceu sua senha? Clique aqui</a></div>
+        <div class="linkajuda"><a href="cadastro.html">Não possui login? Clique aqui e faça seu cadastro!</a></div>
+      </section>
+
+      <!--start recuperar-->
+      <section class="recuperar" id="esqueceu-senha">
+        <form action="recuperar" method="POST">
+          <h4>Recuperar senha</h4>
+          <p>Identifique-se para receber um email com as instruções para se criar uma nova senha.</p>
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="tEmail" id="email" placeholder="por ex.: joaodasilva@provedor.com.br">
+          </div>
+          <div class="entrar-div">
+            <input type="submit" value="enviar" class="enviar">
+          </div>
+          <a class="fechar" href="#">X</a>
+        </form>
       </section>
     </main>
     <footer class="rodape">

@@ -6,30 +6,45 @@
   margin-bottom: 30px;
   margin-top: 16px;
 }
-
-form label{
-  display: block;
-  margin-top: 16px;
+form {
+  width: 50%;
 }
 
+form label{
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.titulo2 {
+  display: inline-block;
+}
 .login {
   margin-left: 30px;
+  background-image: url(../imagens/login-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 
 .enviar {
   text-transform: uppercase;
-  padding: 10px;
-  background-color: #090;
+  padding: 5px 20px;
+  color: white;
+  background-color: #060;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 input[type="password"], input[type="email"] {
-  border-radius: 5px;
-  border: black 2px solid;
-  padding: 5px 2px;
-  width: 400px;
-  font-size: 16px;
+  border-radius: 10px;
+  border: black 1px solid;
+  padding: 10px;
+  width: 95%;
+  font-size: 18px;
+}
+
+.login div, .recuperar div {
+  margin-bottom: 15px;
 }
 
 small {
@@ -40,27 +55,58 @@ small {
 
 .linkajuda {
   margin: 20px 0;
-  color: #acc236;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bolder;
 }
 
 .linkajuda a {
-  color: #acc236;
+  color: #090;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
 }
 
-.entrar {
+.entrar-div {
   margin-top: 15px;
 }
 
-.entrar label {
+.entrar-div label {
   display: inline;
 }
 
 h2 {
   color: #44A;
+}
+
+.recuperar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.recuperar {
+  display: none;
+}
+
+.recuperar:target {
+  display: block;
+}
+
+.recuperar form {
+  position: relative;
+  width: 50%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 35px;
+}
+
+.fechar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+  color: black;
+  margin: 20px 20px 0 0;
 }
